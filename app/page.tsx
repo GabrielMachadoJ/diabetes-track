@@ -159,8 +159,7 @@ export default function Home() {
               </tr>
             </thead>
             <tbody>
-              {/* {medicoes.map((medida: medicaoProps, index) => ( */}
-              {mock.map((medida: medicaoProps, index) => (
+              {medicoes.map((medida: medicaoProps, index) => (
                 <tr key={index} className="border-b-2 ">
                   <td className="px-6 border py-4 text-sm text-gray-900">
                     {medida.valor}
