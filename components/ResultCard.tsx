@@ -9,7 +9,7 @@ export default function ResultCard({ value, label }: ResultCardProps) {
       <label htmlFor="label dos inputs">{label}</label>
       <input
         type="number"
-        className="w-full shadow-inner shadow-purple-100 border border-slate-200 rounded-2xl pl-2 h-full"
+        className="w-full shadow-inner shadow-purple-50 border border-violet-100 rounded-lg pl-2 h-full"
         readOnly
         value={value}
       />
